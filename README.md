@@ -9,11 +9,11 @@ Ideal for filtering spam in contact form fields such as Names, Emails, and Messa
 - Option to loop Contact Form emails to a standalone email box for monitoring and adding in new spam here.
 
 ## Folders and Files ##
-### Include 3 primary filter documents: ###
+### Blacklists Folder ###
   - names.php | Array of identified spam names
   - emails.php | Array of identified spam email addresses
   - messages.php | Array of identified spam messages/parts thereof
-### A contact form ###
+### Contact Form Folder ###
   - contact.php | Simple contact form, with Name, Email, and Message sections
   - success.php | Simple success page after Contact Form is submitted
 
