@@ -10,12 +10,16 @@ Ideal for filtering spam in contact form fields such as Names, Emails, and Messa
 
 ## Folders and Files ##
 ### Blacklists Folder ###
-  - names.php | Array of identified spam names
-  - emails.php | Array of identified spam email addresses
-  - messages.php | Array of identified spam messages/parts thereof
+FILE | PURPOSE
+| :--- | :---
+names.php | Array of identified spam names
+emails.php | Array of identified spam email addresses
+messages.php | Array of identified spam messages/parts thereof
 ### Contact Form Folder ###
-  - contact.php | Simple contact form, with Name, Email, and Message sections
-  - success.php | Simple success page after Contact Form is submitted
+FILE | PURPOSE
+| :--- | :---
+contact.php | Simple contact form, with Name, Email, and Message sections
+success.php | Simple success page after Contact Form is submitted
 
 
 
