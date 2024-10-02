@@ -1,4 +1,4 @@
-# contact-form-spam-filter #
+# Contact Form Spam Filter #
 A lightweight captcha-free tool that filters spam for simple contact forms. 
 Ideal for filtering Names, Emails, and Messages, without any overhead or need to update the the filters.
 
