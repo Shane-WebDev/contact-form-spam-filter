@@ -6,7 +6,7 @@ Ideal for filtering spam in form fields such as Names, Emails, and Messages, wit
 - Simple contact form that dumps identified spam and results in the same success page being returned to the spammer as a real user would see.
 - An updated filter as new spam rolls in, making a simple check for your own contact forms never needing to be updated.
 - The Names, Emails, and Messages files, are independent of each others and make a great addition to any filtering systems you may have already set up.
-- Option to loop all emails 
+- Option to loop Contact Form emails to a standalone email box for monitoring and adding in new spam here.
 
 ## Folders and Files ##
 ### Include 3 primary filter documents: ###
@@ -22,8 +22,8 @@ Ideal for filtering spam in form fields such as Names, Emails, and Messages, wit
 ## Background ##
 After setting up a simple contact form with 3 fields, Name, Email, Message, the occassional email would come through in various languages and names, all with the same email address, kayleighbpsteamship@gmail.com and slightly variating names. Replying once to this email address, allowed the floodgates of spam to spring forth, as it appears kayleighbpsteamship@gmail.com was a catch address that would then trigger the bots. 
 Notably, the original messages were a variation of one about 30 languages of messages, all with the same type of, "what is your price" message. These original messages included:
-Language | Message
----------|---------
+LANGUAGE | MESSAGE
+| :--- | :---
 Afrikaans | Hallo, ek wou jou prys ken.
 Albanian | Hi, kam dashur të di çmimin tuaj'
 Armenian | Ողջույն, ես ուզում էի իմանալ ձեր գինը.
@@ -55,8 +55,6 @@ Vietnamese | Xin chào, tôi muốn biết giá của bạn.
 Welsh | Hi, roeddwn i eisiau gwybod eich pris.
 Zulu | Sawubona, bengifuna ukwazi intengo yakho.
 
-
-These dothat are added to as new form spam is found.
 
 ## Potential Issues ##
 This simple filter in no way results in an ideal world, where perhaps one real user has similar details and has filled out the contact form genuinely. For that reason, it should be noted that if you simply wish to filter just names, you may wind up with real people unable to conact you, but thinking they have. The same applies for messages. Many spam Messaages offer some kind of service, and for that reason have similar phrasing that would often not be used by a genuine user. Therefore, more often than not, certain phrases or terms in Messages have been selected to help filter out messages without the check running through a full array of complex messages. Sometimes these are even just single terms, which might be worth adding in as a filtered terms.php at a later date. The same future update would be viable for splitting emails into their name and domain parts, then only blacklisting domains that were known spam, making the search quicker.
