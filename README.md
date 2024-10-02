@@ -61,6 +61,14 @@ This simple filter in no way results in an ideal world, where perhaps one real u
 
 For those reasons, if you are going to use these files individually in your project, I would recommend a minimum of two files be checked, and if both result in a positive, then a dump of the spam can procedd, otherwise it may result in a false-positive.
 
+### Formatting ###
+While not needed, the decision to standardize email addresses was made. 
+WHAT ARRIVED | AFTER STANDARDIZATION
+| :--- | :---
+tapdils@msn.com | tapdils@msn.com
+terryb@TCTRANS.COM | terryb@tctrans.com
+TMCWATERS@MEDCENTRAL.ORG | tmcwaters@medcentral.org
+
 ## Updates ##
 As new spam will inevitably find it's way around the filter, be it via using a new name, email, or message, the new data will be collected and added into the corresponding files.
 
