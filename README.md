@@ -1,6 +1,6 @@
 # Contact Form Spam Filter #
-A lightweight, captcha-free, back-end free tool, that filters spam from simple contact forms. 
-Ideal for filtering spam in form fields such as Names, Emails, and Messages, without any overhead or need to update the the filters.
+A lightweight, captcha-free, back-end-email-rule-based-free tool, that filters spam from simple contact forms. 
+Ideal for filtering spam in contact form fields such as Names, Emails, and Messages, without any overhead or need to update the the filters.
 
 ## Features ##
 - Simple contact form that dumps identified spam and results in the same success page being returned to the spammer as a real user would see.
