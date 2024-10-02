@@ -55,6 +55,8 @@ Vietnamese | Xin chào, tôi muốn biết giá của bạn.
 Welsh | Hi, roeddwn i eisiau gwybod eich pris.
 Zulu | Sawubona, bengifuna ukwazi intengo yakho.
 
+Removing only kayleigh's email address after replying to it, any further spam that came through, shuffled the three fields, resulting in a combination of name/email/message varieties.
+All duplicates from the three fields have been removed.
 
 ## Potential Issues ##
 This simple filter in no way results in an ideal world, where perhaps one real user has similar details and has filled out the contact form genuinely. For that reason, it should be noted that if you simply wish to filter just names, you may wind up with real people unable to conact you, but thinking they have. The same applies for messages. Many spam Messaages offer some kind of service, and for that reason have similar phrasing that would often not be used by a genuine user. Therefore, more often than not, certain phrases or terms in Messages have been selected to help filter out messages without the check running through a full array of complex messages. Sometimes these are even just single terms, which might be worth adding in as a filtered terms.php at a later date. The same future update would be viable for splitting emails into their name and domain parts, then only blacklisting domains that were known spam, making the search quicker.
