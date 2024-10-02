@@ -24,36 +24,36 @@ After setting up a simple contact form with 3 fields, Name, Email, Message, the 
 Notably, the original messages were a variation of one about 30 languages of messages, all with the same type of, "what is your price" message. These original messages included:
 Language | Message
 ---------|---------
+Afrikaans | Hallo, ek wou jou prys ken.
+Albanian | Hi, kam dashur të di çmimin tuaj'
+Armenian | Ողջույն, ես ուզում էի իմանալ ձեր գինը.
+Azerbaijani | Salam, qiymətinizi bilmək istədim.
+Basque | Kaixo, zure prezioa jakin nahi nuen.
+Belarusian | Прывітанне, я хацеў даведацца Ваш прайс.
+Bengali (Bangla) | হাই, আমি আপনার মূল্য জানতে চেয়েছিলাম.
+Bulgarian | Здравейте, исках да знам цената ви.
+Catalan | Hola, volia saber el seu preu.
+Croatian (Serbian / Latin Script) | Zdravo, htio sam znati vašu cijenu.
+Danish | Hej, jeg ønskede at kende din pris.
+English | Hi, I wanted to know your price.
+Galacian | Ola, quería saber o seu prezo.
+Georgian | Hi, მინდოდა ვიცოდე თქვენი ფასი.
+Greek | Γεια σου, ήθελα να μάθω την τιμή σας.
 Hawaiian | Aloha, makemake wau eʻike i kāu kumukūʻai.
+Hungarian | Szia, meg akartam tudni az árát.
+Icelandic | Hæ, ég vildi vita verð þitt.
+Igbo | Ndewo, achọrọ m ịmara ọnụahịa gị.
+Indonesian | Hai, saya ingin tahu harga Anda.
+Irish (Gaeilge) | Dia duit, theastaigh uaim do phraghas a fháil.
 Italian | Ciao, volevo sapere il tuo prezzo.
-Dia duit, theastaigh uaim do phraghas a fháil.
-Hai, saya ingin tahu harga Anda.
-Hallo, ek wou jou prys ken.
-Hej, jeg ønskede at kende din pris.
-Hi, ego volo scire vestri pretium.
-Hi, I wanted to know your price.
-Hi, kam dashur të di çmimin tuaj'
-Hi, roeddwn i eisiau gwybod eich pris.
-Hi, მინდოდა ვიცოდე თქვენი ფასი.
-Hola, quería saber tu precio.
-Hola, volia saber el seu preu.
-Hæ, ég vildi vita verð þitt.
-Kaixo, zure prezioa jakin nahi nuen.
-Ndewo, achọrọ m ịmara ọnụahịa gị.
-Ola, quería saber o seu prezo.
-Salam, qiymətinizi bilmək istədim.
-Salut, ech wollt Äre Präis wëssen.
-Sawubona, bengifuna ukwazi intengo yakho.
-Sveiki, aš norėjau sužinoti jūsų kainą.
-Sveiki, es gribēju zināt savu cenu.
-Szia, meg akartam tudni az árát.
-Xin chào, tôi muốn biết giá của bạn.
-Zdravo, htio sam znati vašu cijenu.
-Γεια σου, ήθελα να μάθω την τιμή σας.
-Здравейте, исках да знам цената ви.
-Прывітанне, я хацеў даведацца Ваш прайс.
-Ողջույն, ես ուզում էի իմանալ ձեր գինը.
-হাই, আমি আপনার মূল্য জানতে চেয়েছিলাম.
+Latin | Hi, ego volo scire vestri pretium.
+Latvian | Sveiki, es gribēju zināt savu cenu.
+Lithuanian | Sveiki, aš norėjau sužinoti jūsų kainą.
+Luxembourgish | Salut, ech wollt Äre Präis wëssen.
+Spanish | Hola, quería saber tu precio.
+Vietnamese | Xin chào, tôi muốn biết giá của bạn.
+Welsh | Hi, roeddwn i eisiau gwybod eich pris.
+Zulu | Sawubona, bengifuna ukwazi intengo yakho.
 
 
 These dothat are added to as new form spam is found.
