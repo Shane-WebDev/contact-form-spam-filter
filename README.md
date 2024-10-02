@@ -19,7 +19,7 @@ messages.php | Array of identified spam messages/parts thereof
 FILE | PURPOSE
 | :--- | :---
 contact.php | Simple contact form, with Name, Email, and Message sections
-success.php | Simple success page after Contact Form is submitted
+congrats.php | Simple success page after Contact Form is submitted
 
 
 
