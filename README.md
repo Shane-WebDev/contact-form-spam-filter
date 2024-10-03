@@ -12,9 +12,9 @@ Ideal for filtering spam in contact form fields such as Names, Emails, and Messa
 ### Blacklists Folder ###
 FILE | PURPOSE
 | :--- | :---
-names.php | Array of identified spam names
-emails.php | Array of identified spam email addresses
-messages.php | Array of identified spam messages/parts thereof
+names.json | Array of identified spam names
+emails.json | Array of identified spam email addresses
+messages.json | Array of identified spam messages/parts thereof
 ### Contact Form Folder ###
 FILE | PURPOSE
 | :--- | :---
