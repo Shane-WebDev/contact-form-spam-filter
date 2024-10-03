@@ -35,7 +35,7 @@ if (isset($_POST['contact_submit'])) {
 	// VALIDATE AND SANITIZE FORM DATA
 	$name = trim($_POST['name']);
 	$email = trim($_POST['email']);
-	$messages = trim($_POST['messages']);
+	$message = trim($_POST['message']);
 	
 	// VALIDATE EMAIL ADDRESS
 	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -46,12 +46,12 @@ if (isset($_POST['contact_submit'])) {
 	// CONVERT INPUTS TO LOWERCASE FOR CASE-INSENSITIVE SPAM COMPARISON
 	$name_lower = strtolower($name);
 	$email_lower = strtolower($email);
-	$messages_lower = strtolower($messages);
+	$message_lower = strtolower($message);
 
 	// CHECK IF THE NAME, EMAIL, OR MESSAGE, IS BLACKLISTED
 	if (in_array($name_lower, array_map('strtolower', $names)) ||
 		in_array($email_lower, array_map('strtolower', $emails)) ||
-		in_array($messages_lower, array_map('strtolower', $messages))) {
+		in_array($message_lower, array_map('strtolower', $messages))) {
 
 		// RETURN A FAUX SUCCESS PAGE IF THEY ARE BLACKLISTED
 		?>
@@ -79,7 +79,7 @@ if (isset($_POST['contact_submit'])) {
 		$subject = "$name filled out the contact form on $yourwebsite";
 		$message = "Name: $name\n\n";
 		$message .= "Email: $email\n\n";
-		$message .= "Message: $messages\n\n";
+		$message .= "Message: $message\n\n";
 		$headers = "From: $yourwebsite <notification@$yourwebsite>\r\n";
 		$headers .= "Reply-To: $email\r\n";
 
