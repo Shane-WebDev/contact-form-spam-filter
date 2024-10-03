@@ -1,4 +1,4 @@
-<?php $blacklist = [
+<?php $names = [
 'Amelia Brown',
 'Davidfug',
 'Joanna Riggs',
