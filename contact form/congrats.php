@@ -48,8 +48,16 @@ if (isset($_POST['contact_submit'])) {
 	$email_lower = strtolower($email);
 	$message_lower = strtolower($message);
 
+	// CHECK IF THE MESSAGE IS EMPTY
+	if (empty($message)){
+		// RETURN A FAUX SUCCESS PAGE IF THE MESSAGE IS EMPTY
+		?>
+		<h1>Thanks for getting in touch!</h1>
+		<h2>I'll endeavor to get back to you ASAP :3</h2>
+		<?php
+
 	// CHECK IF THE NAME, EMAIL, OR MESSAGE, IS BLACKLISTED
-	if (in_array($name_lower, array_map('strtolower', $names)) ||
+	} elseif  (in_array($name_lower, array_map('strtolower', $names)) ||
 		in_array($email_lower, array_map('strtolower', $emails)) ||
 		in_array($message_lower, array_map('strtolower', $messages))) {
 
@@ -70,9 +78,8 @@ if (isset($_POST['contact_submit'])) {
 		
 		// IF YOU WOULD LIKE ME TO MONITOR MESSAGES FOR SPAM SENT VIA YOUR CONTACT FORM, FEEL FREE TO UNCOMMENT THE FOLLOWING LINES AND I WILL KEEP THESE BLACKLISTS UPDATED WITH ANY SPAM I DETECT. IT MERELY SENDS ME A COPY OF WHAT YOUR EMAIL ADDRESS RECEIVES. COMMENTED OUT BY DEFAULT FOR PRIVACY. ALTERNATIVELY, FEEL FREE TO FORWARD ANY SPAM YOU RECEIVE TO THAT EMAIL ADDRESS AND IT WILL BE ADDED TO THESE BLACKLISTS.
 
-		// UNCOMMENT THESE TWO LINES FOR ME TO MONITOR SPAM
+		// UNCOMMENT THE FOLLOWING LINE FOR ME TO MONITOR SPAM
 		// $bbc = ['spam@virtualjester.com'];
-		// $headers .= 'BCC: ' . implode(",", $bbc) . "\r\n";
 
 
 		// EMAIL LAYOUT YOUR RECEIVE
@@ -82,6 +89,8 @@ if (isset($_POST['contact_submit'])) {
 		$message .= "Message: $message\n\n";
 		$headers = "From: $yourwebsite <notification@$yourwebsite>\r\n";
 		$headers .= "Reply-To: $email\r\n";
+		// UNCOMMENT THE FOLLOWING LINE FOR ME TO MONITOR SPAM
+		// $headers .= 'BCC: ' . implode(",", $bbc) . "\r\n";
 
 
 		// SENDS EMAIL TO YOUR EMAIL ADDRESS
