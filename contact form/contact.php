@@ -1,15 +1,18 @@
-<form method="post" action="/sl/views/congrats.php">
+<form method="post" action="/contact form/congrats.php">
 
 	<div class="formspacer">
 
+		<label for="firstname" class="firstname">First Name</label>
+		<input type="text" class="firstname" id="firstname" name="firstname" placeholder="First Name">
+		
 		<label for="name">Name</label>
-		<input type="text" id="name" name="name" placeholder="Your Name...">
+		<input type="text" id="name" name="name" placeholder="Your Name">
 
 		<label for="email">Email</label>
-		<input type="email" id="email" name="email" placeholder="your@email.com...">
+		<input type="email" id="email" name="email" placeholder="your@email.com">
 
-		<label for="bio">Message</label>
-		<textarea id="bio" name="bio" placeholder="Hi, I have a question about your contact form spam filter..."></textarea>
+		<label for="message">Message</label>
+		<textarea id="message" name="message" placeholder="Hi, I have a question about your contact form spam filter..."></textarea>
 
 	</div>
 
